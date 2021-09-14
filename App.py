@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 
+# here, app is a flask object which is taken from flask class
 app = Flask(__name__) 
 
 tasks = [
